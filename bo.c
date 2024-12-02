@@ -3,8 +3,6 @@
 #include <winsock2.h>
 #include <io.h>
 
-// Need to link with Ws2_32.lib
-#pragma comment(lib, "Ws2_32.lib")
 
 
 void helper(){
@@ -31,7 +29,7 @@ SOCKET establish_server(char *ip, int port){
     }
 
     //Create socket
-    server_fd = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+    server_fd = WSASocket(AF_INET, SOCK_STREAM, IPPROTO_TCP, NULL, 0, 0);
     if (server_fd == INVALID_SOCKET){
         printf("Socket creation failed with error: %d\n", WSAGetLastError());
         WSACleanup();
@@ -75,20 +73,26 @@ int main(int argc, char **argv){
     SOCKET client_fd = INVALID_SOCKET;
     struct sockaddr_in client_addr;
     int client_addr_len = sizeof(client_addr);
-    
 
     // Accept and handle connections
-    
     client_fd = accept(server_fd, (struct sockaddr*)&client_addr, &client_addr_len);
     if (client_fd == INVALID_SOCKET) {
         printf("Accept failed with error: %d\n", WSAGetLastError());
         exit(EXIT_FAILURE);
     }
     
+    char * client_ip = inet_ntoa(client_addr.sin_addr);
+    int client_port =  ntohs(client_addr.sin_port);
+    
     // Get client IP using inet_ntoa instead of inet_ntop
-    printf("New connection from %s:%d\n", inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port));
+    printf("New connection from %s:%d\n", client_ip, client_port);
     int bytes_read = recv(client_fd, buf, sizeof(buf), 0);
-    printf("Received: %s from %s\n", buf, inet_ntoa(client_addr.sin_addr));
+    printf("Received: %s from %s\n", buf, client_ip);
+
+    int sck = _open_osfhandle(client_fd, MF_APPEND);
+    _dup2(sck, STDIN_FILENO);
+    _dup2(sck, STDOUT_FILENO);
+    _dup2(sck, STDERR_FILENO);
 
     vuln(buf);
     return 0;
