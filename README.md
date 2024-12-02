@@ -71,7 +71,7 @@ This project demonstrates a **buffer overflow exploit** targeting a vulnerable p
 
 Below is an embedded demonstration of the buffer overflow exploit in action:
 
-![Buffer Overflow Demo](bo_exe_POC)
+![Buffer Overflow Demo](output.gif)
 
 ---
 
