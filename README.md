@@ -18,7 +18,7 @@ This project demonstrates a **buffer overflow exploit** targeting a vulnerable p
 
 ## Files
 
-- `shell.asm`: Reverse shell payload in assembly.
+- `shell.asm`: Shellcode payload in x86 Intel assembly.
 - `bo.c`: Vulnerable program, binds a socket on the given IP and port.
 - `exploit.py`: Python script for exploiting the buffer overflow vulnerability.
 
