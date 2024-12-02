@@ -1,4 +1,3 @@
-```md
 # Buffer Overflow Example for Windows XP SP3
 
 ## Overview
