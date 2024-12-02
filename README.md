@@ -71,7 +71,7 @@ This project demonstrates a **buffer overflow exploit** targeting a vulnerable p
 
 Below is an embedded demonstration of the buffer overflow exploit in action:
 
-[![Buffer Overflow Demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
+![Buffer Overflow Demo](bo_exe_POC)
 
 ---
 
