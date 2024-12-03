@@ -70,19 +70,8 @@ This project demonstrates a **buffer overflow exploit** targeting a vulnerable p
 
 ## References (IEEE Style)
 
-[1] E. H. Spafford, "The Internet Worm Incident," *IEEE Software*, vol. 6, no. 3, pp. 58-65, May 1989.
+[1] Shell-Storm, "Shellcode Examples Database," [Online]. Available: [https://shell-storm.org/shellcode/index.html](https://shell-storm.org/shellcode/index.html). [Accessed: Dec. 2, 2024].
 
-[2] M. Bishop, *Introduction to Computer Security*. Addison-Wesley, 2004.
+[2] Cocomelonc, "Windows Shellcoding Example: Writing and Testing Shellcode for Windows," [Online]. Available: [https://cocomelonc.github.io/tutorial/2021/10/27/windows-shellcoding-1.html](https://cocomelonc.github.io/tutorial/2021/10/27/windows-shellcoding-1.html). [Accessed: Dec. 2, 2024].
 
-[3] OWASP, "Buffer Overflow," [Online]. Available: https://owasp.org/www-community/attacks/Buffer_Overflow. [Accessed: Dec. 2, 2024].
-
-[4] A. Finkel, "Understanding and Exploiting Buffer Overflows," *Proc. 22nd IEEE Security Symposium*, pp. 1-10, 2003.
-
----
-
-## Author
-
-Created by [Your Name or Alias].
-```
-
-Replace `YOUTUBE_VIDEO_ID` in the video link with your actual YouTube video ID for embedding. This provides a condensed yet informative README with an academic-style references section. Let me know if you need further adjustments!
+[3] M. Valle, "Windows Manual Shellcode Part 3: CreateProcessA," [Online]. Available: [https://marcosvalle.github.io/re/exploit/2018/10/21/windows-manual-shellcode-part3.html](https://marcosvalle.github.io/re/exploit/2018/10/21/windows-manual-shellcode-part3.html). [Accessed: Dec. 2, 2024].
