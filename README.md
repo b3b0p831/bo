@@ -75,3 +75,9 @@ This project demonstrates a **buffer overflow exploit** targeting a vulnerable p
 [2] Cocomelonc, "Windows Shellcoding Example: Writing and Testing Shellcode for Windows," [Online]. Available: [https://cocomelonc.github.io/tutorial/2021/10/27/windows-shellcoding-1.html](https://cocomelonc.github.io/tutorial/2021/10/27/windows-shellcoding-1.html). [Accessed: Dec. 2, 2024].
 
 [3] M. Valle, "Windows Manual Shellcode Part 3: CreateProcessA," [Online]. Available: [https://marcosvalle.github.io/re/exploit/2018/10/21/windows-manual-shellcode-part3.html](https://marcosvalle.github.io/re/exploit/2018/10/21/windows-manual-shellcode-part3.html). [Accessed: Dec. 2, 2024].
+
+[4] The Grey Corner, "Beginning Stack-Based Buffer Overflow," [Online]. Available: [https://thegreycorner.com/2010/01/07/beginning-stack-based-buffer-overflow.html](https://thegreycorner.com/2010/01/07/beginning-stack-based-buffer-overflow.html). [Accessed: Dec. 2, 2024].
+
+[5] Insecure.org, "Smashing The Stack For Fun And Profit," [Online]. Available: [http://insecure.org/stf/smashstack.html](http://insecure.org/stf/smashstack.html). [Accessed: Dec. 2, 2024].
+
+
