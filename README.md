@@ -70,3 +70,7 @@ This project demonstrates a **buffer overflow exploit** targeting a vulnerable p
 [4] The Grey Corner, "Beginning Stack-Based Buffer Overflow," [Online]. Available: [https://thegreycorner.com/2010/01/07/beginning-stack-based-buffer-overflow.html](https://thegreycorner.com/2010/01/07/beginning-stack-based-buffer-overflow.html). [Accessed: Dec. 2, 2024].
 
 [5] Insecure.org, "Smashing The Stack For Fun And Profit," [Online]. Available: [http://insecure.org/stf/smashstack.html](http://insecure.org/stf/smashstack.html). [Accessed: Dec. 2, 2024].
+
+[6] Y. K. Kim, "Window Socket Programming," [Online]. Available: [https://ykkim.gitbook.io/ec/other-programming/socket-programming/window-socket-programming](https://ykkim.gitbook.io/ec/other-programming/socket-programming/window-socket-programming). [Accessed: Dec. 2, 2024].
+
+
