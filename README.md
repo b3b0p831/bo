@@ -6,6 +6,8 @@ This project demonstrates a **buffer overflow exploit** targeting a vulnerable p
 
 **Created for CS166, HW5. Educational purposes only.**
 
+![Buffer Overflow Demo](output.gif)
+
 ---
 
 ## Features
@@ -64,15 +66,6 @@ This project demonstrates a **buffer overflow exploit** targeting a vulnerable p
    ```bash
    python exploit.py
    ```
-
----
-
-## Demonstration Video
-
-Below is an embedded demonstration of the buffer overflow exploit in action:
-
-![Buffer Overflow Demo](output.gif)
-
 ---
 
 ## References (IEEE Style)
