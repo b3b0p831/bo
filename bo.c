@@ -29,7 +29,7 @@ SOCKET establish_server(char *ip, int port){
     }
 
     //Create socket
-    server_fd = WSASocket(AF_INET, SOCK_STREAM, IPPROTO_TCP, NULL, 0, 0);
+    server_fd = socket(AF_INET, SOCK_STREAM, 0);
     if (server_fd == INVALID_SOCKET){
         printf("Socket creation failed with error: %d\n", WSAGetLastError());
         WSACleanup();

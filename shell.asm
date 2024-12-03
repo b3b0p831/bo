@@ -1,5 +1,5 @@
 ; Target: Windows XP x86
-; Compile on Mac M1: 
+; Compile on macOS (ARM): 
 ; nasm -f bin -o shellcode.bin winxp_createprocess.asm
 section .text
     global _start
