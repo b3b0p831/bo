@@ -9,15 +9,6 @@ This project demonstrates a **buffer overflow exploit** targeting a vulnerable p
 ![Buffer Overflow Demo](output.gif)
 
 ---
-
-## Features
-
-- **Reverse Shell**: Executes `cmd.exe` and connects back to the attacker.
-- **Hardcoded API**: Uses static addresses for Windows XP SP3 functions.
-- **Customizable**: Easily update target IP/port for the reverse shell.
-
----
-
 ## Files
 
 - `shell.asm`: Shellcode payload in x86 Intel assembly.
@@ -79,5 +70,3 @@ This project demonstrates a **buffer overflow exploit** targeting a vulnerable p
 [4] The Grey Corner, "Beginning Stack-Based Buffer Overflow," [Online]. Available: [https://thegreycorner.com/2010/01/07/beginning-stack-based-buffer-overflow.html](https://thegreycorner.com/2010/01/07/beginning-stack-based-buffer-overflow.html). [Accessed: Dec. 2, 2024].
 
 [5] Insecure.org, "Smashing The Stack For Fun And Profit," [Online]. Available: [http://insecure.org/stf/smashstack.html](http://insecure.org/stf/smashstack.html). [Accessed: Dec. 2, 2024].
-
-
