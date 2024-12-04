@@ -6,7 +6,7 @@ This project demonstrates a **buffer overflow exploit** targeting a vulnerable p
 
 **Created for CS166, HW5. Educational purposes only.**
 
-![Buffer Overflow Demo](output.gif)
+![Buffer Overflow Demo](imgs/bo)
 
 ---
 ## Files
